@@ -1,0 +1,17 @@
+PODS:
+  - OHHTTPStubs/Core (4.1.0)
+  - OHHTTPStubs/Mocktail (4.1.0):
+    - OHHTTPStubs/Core
+
+DEPENDENCIES:
+  - OHHTTPStubs/Mocktail (from `~/Documents/Workspaces/OHHTTPStubs`)
+
+EXTERNAL SOURCES:
+  OHHTTPStubs:
+    :branch: Mocktail
+    :path: ~/Documents/Workspaces/OHHTTPStubs
+
+SPEC CHECKSUMS:
+  OHHTTPStubs: 93bff0c61f600e0fdab723ca513dce03bfd2cb55
+
+COCOAPODS: 0.38.2

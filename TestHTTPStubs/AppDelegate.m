@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OHHTTPStubs+Mocktail.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [OHHTTPStubs stubRequestsUsingMocktailNamed:@"logos_ebay.tail" error:NULL];
     return YES;
 }
 

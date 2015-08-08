@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D079D581B7649F7006D2D57 /* logos_ebay.tail in Resources */ = {isa = PBXBuildFile; fileRef = 1D079D571B7649F7006D2D57 /* logos_ebay.tail */; };
 		1DEEE1DF1B7648BA0069CB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEEE1DE1B7648BA0069CB00 /* main.m */; };
 		1DEEE1E21B7648BA0069CB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEEE1E11B7648BA0069CB00 /* AppDelegate.m */; };
 		1DEEE1E51B7648BA0069CB00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEEE1E41B7648BA0069CB00 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		1DEEE1EA1B7648BA0069CB00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEEE1E91B7648BA0069CB00 /* Images.xcassets */; };
 		1DEEE1ED1B7648BA0069CB00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEEE1EB1B7648BA0069CB00 /* LaunchScreen.xib */; };
 		1DEEE1F91B7648BA0069CB00 /* TestHTTPStubsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEEE1F81B7648BA0069CB00 /* TestHTTPStubsTests.m */; };
+		2686C699322ED5F11D34022D /* libPods-TestHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51281EBE220D09EB1CEC52E3 /* libPods-TestHTTPStubs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D079D571B7649F7006D2D57 /* logos_ebay.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logos_ebay.tail; sourceTree = "<group>"; };
 		1DEEE1D91B7648BA0069CB00 /* TestHTTPStubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHTTPStubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEEE1DD1B7648BA0069CB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DEEE1DE1B7648BA0069CB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		1DEEE1F21B7648BA0069CB00 /* TestHTTPStubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHTTPStubsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEEE1F71B7648BA0069CB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DEEE1F81B7648BA0069CB00 /* TestHTTPStubsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHTTPStubsTests.m; sourceTree = "<group>"; };
+		51281EBE220D09EB1CEC52E3 /* libPods-TestHTTPStubs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestHTTPStubs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E661790B3C5AEB11D18C43 /* Pods-TestHTTPStubs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHTTPStubs.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHTTPStubs/Pods-TestHTTPStubs.release.xcconfig"; sourceTree = "<group>"; };
+		9CC7F0C40E881E7AFDA156B3 /* Pods-TestHTTPStubs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHTTPStubs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHTTPStubs/Pods-TestHTTPStubs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2686C699322ED5F11D34022D /* libPods-TestHTTPStubs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +73,8 @@
 				1DEEE1DB1B7648BA0069CB00 /* TestHTTPStubs */,
 				1DEEE1F51B7648BA0069CB00 /* TestHTTPStubsTests */,
 				1DEEE1DA1B7648BA0069CB00 /* Products */,
+				1FAA82D692603DBA62416538 /* Pods */,
+				4BB37E3FE0D17958654F3580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +92,7 @@
 			children = (
 				1DEEE1E01B7648BA0069CB00 /* AppDelegate.h */,
 				1DEEE1E11B7648BA0069CB00 /* AppDelegate.m */,
+				1D079D571B7649F7006D2D57 /* logos_ebay.tail */,
 				1DEEE1E31B7648BA0069CB00 /* ViewController.h */,
 				1DEEE1E41B7648BA0069CB00 /* ViewController.m */,
 				1DEEE1E61B7648BA0069CB00 /* Main.storyboard */,
@@ -119,6 +129,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1FAA82D692603DBA62416538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CC7F0C40E881E7AFDA156B3 /* Pods-TestHTTPStubs.debug.xcconfig */,
+				65E661790B3C5AEB11D18C43 /* Pods-TestHTTPStubs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BB37E3FE0D17958654F3580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51281EBE220D09EB1CEC52E3 /* libPods-TestHTTPStubs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEEE1FC1B7648BA0069CB00 /* Build configuration list for PBXNativeTarget "TestHTTPStubs" */;
 			buildPhases = (
+				E72A0B7E72F39CB5831F2D62 /* Check Pods Manifest.lock */,
 				1DEEE1D51B7648BA0069CB00 /* Sources */,
 				1DEEE1D61B7648BA0069CB00 /* Frameworks */,
 				1DEEE1D71B7648BA0069CB00 /* Resources */,
+				8DE56660C2D1A928AFF51078 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +231,7 @@
 				1DEEE1E81B7648BA0069CB00 /* Main.storyboard in Resources */,
 				1DEEE1ED1B7648BA0069CB00 /* LaunchScreen.xib in Resources */,
 				1DEEE1EA1B7648BA0069CB00 /* Images.xcassets in Resources */,
+				1D079D581B7649F7006D2D57 /* logos_ebay.tail in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +243,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DE56660C2D1A928AFF51078 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHTTPStubs/Pods-TestHTTPStubs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72A0B7E72F39CB5831F2D62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DEEE1D51B7648BA0069CB00 /* Sources */ = {
@@ -347,6 +410,7 @@
 		};
 		1DEEE1FD1B7648BA0069CB00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC7F0C40E881E7AFDA156B3 /* Pods-TestHTTPStubs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestHTTPStubs/Info.plist;
@@ -357,6 +421,7 @@
 		};
 		1DEEE1FE1B7648BA0069CB00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E661790B3C5AEB11D18C43 /* Pods-TestHTTPStubs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestHTTPStubs/Info.plist;
@@ -418,6 +483,7 @@
 				1DEEE1FE1B7648BA0069CB00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DEEE1FF1B7648BA0069CB00 /* Build configuration list for PBXNativeTarget "TestHTTPStubsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +492,7 @@
 				1DEEE2011B7648BA0069CB00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
